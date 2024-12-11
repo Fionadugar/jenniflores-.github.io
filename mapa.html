@@ -68,12 +68,24 @@
   </style>
 </head>
 <body>
-  <!-- Barra de navegación principal -->
-  <nav>
-    <a href="#">Inicio</a>
-    <a href="#">Productos</a>
-    <a href="#">Contacto</a>
-  </nav>
+  <table class="header-table">
+    <tr>
+        <td>
+            Tu Rincón de Dulzura Saludable
+        </td>
+    </tr>
+</table>
+<div id="navigation">
+    <div class="container">
+        <button onclick="showSection('inicio')">Inicio</button>
+        <a href="#" onclick="showSection('noticias')">Noticias</a>
+        <a href="#" onclick="showSection('productos')">Productos</a>
+        <a href="#" onclick="showSection('equipo')">Nuestro Equipo</a>
+        <a href="#" onclick="showSection('galeria')">Galeria Proyecto</a>
+        <a href="#" onclick="showSection('contacto')">Contacto</a>
+    </div>
+</div>
+
 
   <!-- Contenedor principal con el mapa -->
   <div id="contenedor">
@@ -106,5 +118,6 @@
   <footer>
     <p>&copy; 2024 Sabor y Salud. Todos los derechos reservados. <a href="#">Política de Privacidad</a></p>
   </footer>
+ 
 </body>
 </html>

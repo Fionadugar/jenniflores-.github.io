@@ -1,19 +1,19 @@
-/* styles.css */
-/* Estilo para la tabla del título */
+
+
 table.header-table {
-    width: 100%; /* Ocupa todo el ancho de la página */
-    background-color: #f5e0ca; /* Color de fondo de la tabla */
-    border: 2px solid #36ca43; /* Borde de la tabla */
-    text-align: center; /* Texto centrado */
-    padding: 20px 0; /* Espacio interno */
+    width: 100%; 
+    background-color: #f5e0ca; 
+    border: 2px solid #0f6416; 
+    text-align: center; 
+    padding: 20px 0; 
 }
 
 table.header-table td {
-    font-size: 2.5em; /* Tamaño del texto */
-    font-weight: bold; /* Negrita */
-    color: #572e2e; /* Color del texto */
+    font-size: 2.5em; 
+    font-weight: bold; 
+    color: #572e2e; 
 }
-/* Estilo para el cuerpo de la página */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -22,7 +22,7 @@ body {
     color: #333;
 }
 
-/* Estilo para el encabezado principal (h1) */
+
 h1 {
     color: #c49c2fcb;
     text-align: center;
@@ -30,20 +30,20 @@ h1 {
     margin-top: 20px;
 }
 
-/* Estilo para los párrafos */
+
 p {
     font-size: 1.2em;             
     text-align: justify;          
     margin: 20px;                 
 }
 
-/* Estilo para agregar un fondo a toda la página */
+
 body {
     background-image: url('../img/pasteleria-fondo.jpg');
     background-size: cover;
 }
 
-/* Estilo para hacer que las tablas tengan borde */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -51,7 +51,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #df1a1a;
 }
 
 th, td {
@@ -60,15 +60,15 @@ th, td {
 }
 
 th {
-    background-color: #6dd46a;
+    background-color: #d1350e;
     color: white;
 }
-/* Estilo específico para la tabla de productos */
+
 #tabla-productos {
     width: 100%;
     margin: 20px auto;
     border-collapse: collapse;
-    background-color: #96ec25;
+    background-color: #ec6e25;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -94,7 +94,7 @@ th {
     cursor: pointer;
 }
 
-/* Estilo para las imágenes dentro de la tabla de productos */
+
 #tabla-productos img {
     width: 120px;
     height: auto;
@@ -105,10 +105,10 @@ th {
     transform: scale(1.1);
 }
 
-/* Estilo para los enlaces del menú de navegación */
+
 header a {
     text-decoration: none; 
-    color: #26c933; 
+    color: #c97526; 
     font-weight: bold; 
     padding: 10px 20px;
     margin: 0 10px; 
@@ -116,7 +116,7 @@ header a {
 }
 
 header a:hover {
-    color: #c49c2fcb; 
+    color: #e75e0fcb; 
 }
 
 .imagen-margen {
@@ -124,13 +124,13 @@ header a:hover {
     max-width: 600px;   
     display: block;     
 }
-/* Estilo para el contenedor de navegación sin caja envolvente */
+
 #navigation {
     text-align: center; 
     margin: 20px 0;     
 }
 
-/* Estilo para los enlaces dentro del contenedor de navegación */
+
 #navigation a {
     text-decoration: none;     
     color: #26c933;           
@@ -156,12 +156,12 @@ header a:hover {
     margin: 20px auto;
 }
 .section {
-    display: none; /* Todas las secciones ocultas por defecto */
+    display: none; 
     margin: 20px 0;
 }
 
 .active {
-    display: block; /* Mostrar solo la sección activa */
+    display: block; 
 }
 @media (max-width: 768px) {
     .cuadro {
